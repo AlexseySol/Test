@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  max-width: 1640px;
+}
+
+.boxItem {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  padding: 0px 15px;
+}
+
+.text {
+  position: absolute;
+  font-size: 1.4rem;
+  width: 20%;
+  text-align: center;
+  top: 18rem;
+  right: 4rem;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
